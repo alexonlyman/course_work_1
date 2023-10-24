@@ -24,17 +24,16 @@ public class Main {
         employees[8] = new Employee("Bob", "Plaie", 10345000, departments[4]);
         employees[9] = new Employee("Panst", "Joly", 1001200, departments[1]);
 
-        //Methods.getAllEmployee(employees);
-        //Methods.calculateSalarybyMonth(employees);
-//        Methods.calculateMinSalary(employees);
-//        Methods.calculateMaxSalary(employees);
-       // Methods.calculateAverage(employees);
-        //Methods.getAllNames(employees);
-        //Methods.indexSallary(employees,20);
-        //Methods.findIdOfDepartment(employees, 1);
-      //  Methods.findMaxSalaryInDepartment(employees,2);
-       // Methods.findAmoundOfSalary(employees,1);
-       // Methods.findAverageSalaryOfDepartment(employees, 0);
+        Methods.getAllEmployee(employees);
+        Methods.calculateSalarybyMonth(employees);
+        Methods.calculateMinSalary(employees);
+        Methods.calculateMaxSalary(employees);
+        Methods.calculateAverage(employees);
+        Methods.getAllNames(employees);
+        Methods.indexSallary(employees,20);
+        Methods.findMaxSalaryInDepartment(employees,2);
+        Methods.findAmoundOfSalary(employees,1);
+        Methods.findAverageSalaryOfDepartment(employees, 0);
         Methods.indexingOfSalaryInDepartment(employees,2, 3.0);
     }
 
